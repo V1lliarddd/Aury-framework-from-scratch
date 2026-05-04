@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    //Строгие проверки ts
+    "strict": true,
+    //В какой формат превращаем итоговый код
+    "target": "es2020",
+    //импорт/экпорт файлов
+    "module": "esnext",
+    //Встроенные функции
+    "lib": ["ES2020", "DOM"],
+    //Папка для сборки
+    "outDir": "./dist",
+    //Исходники
+    "rootDir": "./src",
+    //d.ts
+    "declaration": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
